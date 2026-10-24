@@ -16,13 +16,13 @@ This is a **2-hour hands-on session**. You follow a single business story, a Q4 
 
 ### The Story
 
-You are a finance manager closing Q4. You start in **SAP S/4HANA** — the Joule panel surfacing overdue billing items. You open **Joule Work web** to investigate the full close picture with the Financial Closing Assistant: status, blockers, CFO brief. The billing gap points to your local Q4 forecast spreadsheet. You switch to **Joule Work desktop application**, attach the Excel file, activate the Billing Assistant, and synthesise local plan with live S/4HANA actuals. You then build a custom Skill to make that analysis repeatable. Finally, you build a persistent **Space** — live web search, weather, calendar, and close status — that waits for you every morning until the books are closed.
+You are a finance manager closing Q4. You start in **SAP S/4HANA** and the Joule panel surfacing overdue billing items. You open **Joule Work web** to investigate the full close picture with the Financial Closing Assistant: status, blockers, CFO brief. The billing gap points to your local Q4 forecast spreadsheet. You switch to **Joule Work desktop application**, attach the Excel file, activate the Billing Assistant, and synthesise local plan with live S/4HANA actuals. You then build a custom Skill to make that analysis repeatable. Finally, you build a persistent **Space** based on live web search, weather, calendar, and close status that waits for you every morning until the books are closed.
 
 ### What You'll Do
 
 | Area | What you'll experience |
 |------|--------------------------|
-| **S/4HANA → Web** | Use the embedded ◆ Joule panel in Fiori; move to full Joule Work Web |
+| **S/4HANA → Web** | Use the embedded **Diamond Icon** Joule panel in Fiori; move to full Joule Work Web |
 | **Financial Closing Assistant** | Period-end close status, blockers, journal entries, and a CFO brief |
 | **Billing Assistant + local data** | Cross-reference your Q4 Excel forecast against live S/4HANA billing actuals |
 | **Skill Creator** | Build a custom reusable skill from scratch in Joule Work Desktop |
@@ -35,7 +35,7 @@ Setup  →  S/4 + Web  →  Web: Close & Skills  →  Desktop: Billing + Skill  
 (5 min)   (25 min)         (30 min)                    (35 min)                  (25 min)
 ```
 
-> **Exercise 4 (Spaces) is standalone** — it can be done independently without completing Exercises 1–3.
+> **Exercise 4 (Spaces) is standalone** It can be done independently without completing Exercises 1–3.
 
 ---
 
@@ -44,7 +44,6 @@ Setup  →  S/4 + Web  →  Web: Close & Skills  →  Desktop: Billing + Skill  
 - **Login credentials** to the session demo system — provided by instructors on the day (covers S/4HANA + Joule Work Web).
 - A modern **web browser** (Chrome, Edge, or Firefox).
 - **Joule Work Desktop** installed on your laptop (macOS or Windows) — required for Exercises 3 and 4.
-  → Download: [https://www.sap.com/products/artificial-intelligence/joule-work/desktop-app.html](https://www.sap.com/products/artificial-intelligence/joule-work/desktop-app.html)
 - Download **[`assets/Q4_Billing_Plan.xlsx`](./assets/Q4_Billing_Plan.xlsx)** to your laptop before starting Exercise 3.
 - No prior Joule or AI experience is required.
 
@@ -74,15 +73,12 @@ This session focuses on **using** Joule Work as a knowledge worker. If you want 
 |---------|-------|-------|
 | [JW160](https://github.com/SAP-samples/teched2026-JW160) | Joule 101: Prompting, agents, skills, and deep reasoning | Build Skills and Agents in Joule Studio; prompting fundamentals; deep reasoning |
 
-JW261 and JW160 are designed to be taken independently — but together they give you the full picture: *use* the surface (JW261) and *build on* the platform (JW160).
-
 ---
 
 ## How to Obtain Support
 
 - If you are attending the **in-person session in Berlin**, raise your hand — an instructor will come to you.
-- For questions after the event, open an issue in this GitHub repository.
-
+- 
 ---
 
 ## License
