@@ -43,6 +43,17 @@ A browser-based experience. No installation required, works on any device.
 
 **How to access:** Open the URL provided by your instructor in a browser.
 
+**Take the product tour**
+When you open Joule Work for the first time, a guided tour starts automatically. Click "Show Me Conversations" to start it.
+
+If the tour did not start automatically, you can trigger it manually:
+
+Click the "J0 / JW261 001" avatar at the bottom of the left sidebar.
+Select "Tour" from the menu.
+
+<img width="1508" height="827" alt="image" src="https://github.com/user-attachments/assets/72e276c6-6721-44f5-be98-bbed471b9505" />
+
+
 > **Agentic thinking** is a Joule Work web capability. It appears as a pill in the conversation input window and, when active, lets Joule plan, decompose, and execute complex multi-step tasks autonomously invoking Skills, Agents, and connected systems in sequence until the goal is met. ([SAP Help: Joule Work](https://help.sap.com/doc/525677ed302148a4b7cc9988321055fb/CLOUD/en-US/dc1706e63f4d443f9da2aeae83a2277e.pdf))
 
 ---
@@ -58,7 +69,10 @@ A native application for macOS and Windows that adds capabilities not available 
 - Building Skills with the built-in Skill Creator
 - Add connectors and M365 connectivity (not available in the demo set-up)
 
-**How to access:** The desktop client is pre-installed on your laptop. Uses the same credentials as Joule Work Web.
+**How to access:** The desktop client is pre-installed on your laptop. Uses the same credentials as Joule Work web.
+
+<img width="1380" height="755" alt="image" src="https://github.com/user-attachments/assets/7bb11dcd-468a-4246-9436-ba692a01c48f" />
+
 
 ---
 
@@ -71,7 +85,10 @@ A native application for macOS and Windows that adds capabilities not available 
 3. Enter the **username** and **password** from your credential card.
 4. For direct full-screen access you can open a seperate tab and follow 2.2 or got to "Open Joule Work"
 
-### 2.2 Joule Work Web
+<img width="1509" height="826" alt="image" src="https://github.com/user-attachments/assets/9e6a92f8-b059-4d9e-a0ab-8517a158bf5a" />
+
+
+### 2.2 Joule Work web
 
 1. Open a new browser tab.
 2. Navigate to the **Joule Work Web URL** printed on your credential card.
