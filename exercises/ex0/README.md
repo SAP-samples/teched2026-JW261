@@ -27,7 +27,7 @@ A slide-out panel inside the Fiori shell bar, identified by the **diamond icon**
 
 When you need more than the panel offers — Spaces, cross-system context, or local files — you can jump directly to the full Joule Work Web experience. Look for the **Open in Joule Work** link or the expand icon inside the panel. Your SAP session and credentials carry over automatically; no second login is needed.
 
-> **Note:** The embedded panel is scoped to a single S/4HANA system. It does not support Spaces, cross-system context, or local file access. Skills and Assistants work in the embedded panel just as they do in Web.
+> **Note:** The embedded panel is scoped to a single S/4HANA system. It does not support Spaces, cross-system context, or local file access.
 
 ---
 
