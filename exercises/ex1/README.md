@@ -16,7 +16,7 @@ After completing this exercise, you will be able to:
 1. In your browser, open the **SAP S/4HANA Fiori Launchpad** using the URL on your credential card.
 2. Log in with the S/4HANA credentials provided by your instructor.
 3. Locate the **diamond icon** in the **top-right corner** of the Fiori shell bar.
-4. Click the **diamond icon*** icon to open the Joule slide-out panel.
+4. Click the **diamond icon** icon to open the Joule slide-out panel.
 
 **Result:** The Joule panel opens on the right side of the screen without leaving the Fiori Launchpad. You can still navigate the Launchpad behind it.
 
@@ -105,7 +105,7 @@ Based on what we just found, which of these customers should I prioritise for fo
 
 3. Press **Enter** and read the full response before moving on.
 
-🌕 **Result:** Joule builds on the billing data it already surfaced — the aged items, the customer ranking, the document types — and returns a prioritised action plan grounded in the actual numbers from your S/4HANA system.
+**Result:** Joule builds on the billing data it already surfaced — the aged items, the customer ranking, the document types — and returns a prioritised action plan grounded in the actual numbers from your S/4HANA system.
 
 > **Note:** This is still general Joule reasoning over the conversation context. In **Exercise 2** you will activate the Financial Closing Assistant, which connects directly to your S/4HANA system and can ground every answer in live data rather than the conversation history alone.
 
