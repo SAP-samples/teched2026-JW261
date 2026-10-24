@@ -2,7 +2,7 @@
 
 **Learning Objectives**
 After completing this exercise, you will be able to:
-- Create a Space in Joule Work Desktop and understand how cards work.
+- Create a Space in Joule Work desktop application and understand how cards work.
 - Add live data cards from web search and refresh them on demand.
 - Build a persistent Close Readiness Space directly from the Exercise 3 conversation.
 - Organise cards into sections and use the Space as a daily monitoring dashboard.
@@ -13,13 +13,13 @@ After completing this exercise, you will be able to:
 
 ## Part 1. Learn Spaces with a Travel Planning Warm-Up
 
-A Space is a persistent dashboard made of live data cards. Unlike a conversation, it stays put — you open it the next day and the data is still there, ready to refresh. This section introduces the mechanics with a simple example before applying them to your financial close work.
+A Space is a persistent dashboard made of live data cards. Unlike a conversation, it stays put. You open it the next day and the data is still there, ready to refresh. This section introduces the mechanics with a simple example before applying them to your financial close work.
 
 ---
 
 ### 1. Create Your First Space
 
-1. In Joule Work Desktop, click **New Conversation**.
+1. In Joule Work desktop, click **New Conversation**.
 2. 👉 Copy and paste the following prompt:
 
 ```
@@ -28,7 +28,7 @@ Create a Space called "Travel Planning" and add a 5-day weather forecast card fo
 
 Replace the second city with a city you are actually travelling to after TechEd: for example Munich, London, or New York.
 
-🌕 **Result:** Joule creates the Space and adds two weather cards, one per city. Both cards appear in the sidebar under **Spaces**.
+**Result:** Joule creates the Space and adds two weather cards, one per city. Both cards appear in the sidebar under **Spaces**.
 
 ---
 
@@ -46,7 +46,7 @@ Replace the second city with a city you are actually travelling to after TechEd:
 
 1. Click **↻** on one of the weather cards.
 
-🌕 **Result:** The card re-fetches the latest forecast without you re-prompting. This is the core mechanic of Spaces: live data, on-demand refresh, no conversation required.
+**Result:** The card re-fetches the latest forecast without you re-prompting. This is the core mechanic of Spaces: live data, on-demand refresh, no conversation required.
 
 > **Note:** The ↻ button works on every card type — weather, news, calendar, S/4HANA data. You will use it throughout Part 2.
 
@@ -61,7 +61,7 @@ Replace the second city with a city you are actually travelling to after TechEd:
 Add a section called "My Destinations" and move both weather cards into it.
 ```
 
-🌕 **Result:** The cards are now grouped under a named section. Sections keep a Space readable as it grows.
+**Result:** The cards are now grouped under a named section. Sections keep a Space readable as it grows.
 
 ---
 
@@ -89,7 +89,7 @@ Create a Space called "Q4 Close Readiness" from our conversation. Add the follow
 3. The December accrual proposal status for CA Specialty Cycles 2
 ```
 
-🌕 **Result:** Joule creates the Space and adds three cards, each sourced from the Exercise 3 conversation results. Navigate to **Spaces** in the sidebar to see them.
+**Result:** Joule creates the Space and adds three cards, each sourced from the Exercise 3 conversation results. Navigate to **Spaces** in the sidebar to see them.
 
 ---
 
@@ -99,11 +99,11 @@ Create a Space called "Q4 Close Readiness" from our conversation. Add the follow
 2. Review each card:
    - **At-Risk Customers** the three flagged accounts with their billing exposure and item age.
    - **Open Items and Consistency** the open AR and posting issues the Financial Closing Assistant found.
-   - **Accrual Proposal**  the December safety net for CA Specialty Cycles 2.
+   - **Accrual Proposal** the December safety net for CA Specialty Cycles 2.
 
 3. Click **↻** on the **At-Risk Customers** card to re-fetch the data.
 
-🌕 **Result:** The card refreshes and any changes since Exercise 3 appear without reopening the files or re-running the analysis.
+**Result:** The card refreshes and any changes since Exercise 3 appear without reopening the files or re-running the analysis.
 
 ---
 
@@ -116,7 +116,7 @@ Create a Space called "Q4 Close Readiness" from our conversation. Add the follow
 Add two sections to this Space: "Customer Risk" and "Closing Actions". Put the at-risk customer summary in Customer Risk, and the open items check and accrual proposal in Closing Actions.
 ```
 
-🌕 **Result:** The cards reorganise into two sections. Customer risk is visible at a glance at the top; the action items are grouped below.
+**Result:** The cards reorganise into two sections. Customer risk is visible at a glance at the top; the action items are grouped below.
 
 ---
 
@@ -130,7 +130,7 @@ The close team may need to travel to customer sites before December 31. Add a we
 Add a weather forecast card for Vancouver, Canada to the Customer Risk section.
 ```
 
-🌕 **Result:** A live weather card for Vancouver is added to the Customer Risk section, a small but concrete example of mixing S/4HANA data with real-world context in one Space.
+**Result:** A live weather card for Vancouver is added to the Customer Risk section, a small but concrete example of mixing S/4HANA data with real-world context in one Space.
 
 ---
 
@@ -142,7 +142,7 @@ Add a weather forecast card for Vancouver, Canada to the Customer Risk section.
 Based on the cards in this Space, what is the single most important action to take before end of this week to protect Q4 revenue recognition?
 ```
 
-🌕 **Result:** Joule reads the live card data, the customer risk table, the consistency check results, and the accrual status and returns a prioritised recommendation grounded in the actual numbers on the Space.
+**Result:** Joule reads the live card data, the customer risk table, the consistency check results, and the accrual status and returns a prioritised recommendation grounded in the actual numbers on the Space.
 
 ---
 
