@@ -43,9 +43,17 @@ Setup  →  S/4 + Web  →  Web: Close & Skills  →  Desktop: Billing + Skill  
 
 - **Login credentials** to the session demo system — provided by instructors on the day (covers S/4HANA + Joule Work Web).
 - A modern **web browser** (Chrome, Edge, or Firefox).
-- **Joule Work Desktop** installed on your laptop (macOS or Windows) — required for Exercises 3 and 4.
+- **Joule Work desktop application** installed on your laptop (macOS or Windows) — required for Exercises 3 and 4.
 - Download **[`assets/Q4_Billing_Plan.xlsx`](./assets/Q4_Billing_Plan.xlsx)** to your laptop before starting Exercise 3.
 - No prior Joule or AI experience is required.
+
+---
+
+## Note on screenshots and example data
+
+- This session runs against a shared demo environment that is used by multiple participants across sessions. The exact numbers, names, and statuses shown in the exercise screenshots reflect the state of the system at the time the screenshots were taken and will differ from what you see. This is expected: the data is live and changes with every new record created or modified by any participant.
+
+- Use the screenshots as a guide to the layout and structure of the response, not as a reference for specific values.
 
 ---
 
