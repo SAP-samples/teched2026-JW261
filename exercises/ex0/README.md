@@ -15,7 +15,7 @@ After completing this exercise, you will be able to:
 
 Joule Work is available across three surfaces. Each serves a different context. You will use all three during this session.
 
-### 1.1 Joule Embedded in SAP S/4HANA
+### 1.1 Joule embedded in SAP S/4HANA
 
 A slide-out panel inside the Fiori shell bar, identified by the **diamond icon** in the top-right corner.
 
@@ -25,7 +25,7 @@ A slide-out panel inside the Fiori shell bar, identified by the **diamond icon**
 
 **How to access:** Click the **diamond icon** icon in the top-right of the Fiori shell bar.
 
-When you need more than the panel offers — Spaces, cross-system context, or local files — you can jump directly to the full Joule Work Web experience. Look for the **Open in Joule Work** link or the expand icon inside the panel. Your SAP session and credentials carry over automatically; no second login is needed.
+When you need more than the panel offers like Spaces, cross-system context, or local files you can jump directly to the full Joule Work web experience. Look for the **Open in Joule Work** link or the expand icon inside the panel. Your SAP session and credentials carry over automatically; no second login is needed.
 
 > **Note:** The embedded panel is scoped to a single S/4HANA system. It does not support Spaces, cross-system context, or local file access.
 
@@ -47,7 +47,7 @@ A browser-based experience. No installation required, works on any device.
 
 ---
 
-### 1.3 Joule Work Desktop
+### 1.3 Joule Work desktop application
 
 A native application for macOS and Windows that adds capabilities not available in the browser.
 
@@ -77,7 +77,7 @@ A native application for macOS and Windows that adds capabilities not available 
 2. Navigate to the **Joule Work Web URL** printed on your credential card.
 3. Enter the **username** and **password** from your credential card (same credentials).
 
-### 2.3 Joule Work Desktop
+### 2.3 Joule Work desktop application
 
 1. Open the Joule Work application on your laptop.
 2. Enter the **username** and **password** from your credential card (same credentials).
@@ -91,7 +91,7 @@ Take a moment to locate each area in the Joule Work Web interface before you sta
 1. Find the **Conversations** section in the left sidebar.
    - This is where all persistent conversation threads live.
    - Use the **New Conversation** button (pencil or `+` icon) to start a fresh thread.
-   - Conversations sync across your Joule Work Web sessions. Joule Work Desktop starts from scratch with no prior conversation history.
+   - Conversations sync across your Joule Work Web sessions. Joule Work desktop starts from scratch with no prior conversation history.
 
 2. Find the **Spaces** section in the left sidebar.
    - Spaces are persistent dashboards made of data cards.
@@ -106,7 +106,7 @@ Take a moment to locate each area in the Joule Work Web interface before you sta
    - You will activate Skills here in Exercise 2.
 
 5. Find **Settings** (gear icon, usually bottom-left or top-right).
-   - Settings include: language, default model, connected accounts, and on Desktop workspace folder configuration.
+   - Settings include: language, default model, connected accounts, and on desktop workspace folder configuration.
 
 > **Note:** Navigation labels may vary slightly between versions. If you cannot find a section, hover over the icons in the sidebar to reveal tooltips.
 
@@ -135,7 +135,7 @@ What is Joule Work and what can I do with it here?
 ## Summary
 
 In this exercise you:
-- Learned the three Joule Work surfaces (Embedded, Web, Desktop) and what each is best suited for.
+- Learned the three Joule Work surfaces (embedded, web, desktop) and what each is best suited for.
 - Logged in to all three surfaces using your session credentials.
 - Located the main navigation areas: Conversations, Spaces, Develop, Extensions, and Settings.
 - Sent your first prompt to confirm the environment is working.
