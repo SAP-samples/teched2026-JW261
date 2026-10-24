@@ -30,6 +30,8 @@ Replace the second city with a city you are actually travelling to after TechEd:
 
 **Result:** Joule creates the Space and adds two weather cards, one per city. Both cards appear in the sidebar under **Spaces**.
 
+<img width="1500" height="891" alt="image" src="https://github.com/user-attachments/assets/2dd1428d-f7ab-42c8-a98d-be42a3f4385b" />
+
 ---
 
 ### 2. Navigate to the Space and Explore the Cards
@@ -90,6 +92,9 @@ Create a Space called "Q4 Close Readiness" from our conversation. Add the follow
 ```
 
 **Result:** Joule creates the Space and adds three cards, each sourced from the Exercise 3 conversation results. Navigate to **Spaces** in the sidebar to see them.
+
+<img width="1501" height="884" alt="image" src="https://github.com/user-attachments/assets/2c418a39-b2b4-4f9c-866d-cf40ac13f1f0" />
+
 
 ---
 
