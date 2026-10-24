@@ -1,6 +1,6 @@
 # Exercise 5 - Joule Everywhere: The Command Palette
 
-> 📌 **This exercise is standalone.** All you need is Joule Work Desktop installed and signed in.
+> 📌 **This exercise is standalone.** All you need is Joule Work desktop application installed and signed in.
 
 **Learning Objectives**
 After completing this exercise, you will be able to:
@@ -10,15 +10,15 @@ After completing this exercise, you will be able to:
 
 **Estimated time:** 10 minutes
 
-**Surface:** Joule Work Desktop
+**Surface:** Joule Work desktop application
 
 ---
 
 ## 1. Enable the Summon Shortcut
 
-The command palette lets you summon Joule with a keyboard shortcut from any app — your browser, email client, spreadsheet, or PDF reader — without switching windows.
+The command palette lets you summon Joule with a keyboard shortcut from any app. From your browser, email client, spreadsheet, or PDF reader without switching windows.
 
-1. Open Joule Work Desktop.
+1. Open Joule Work desktop application.
 2. Go to **Settings** → **General** → **Command Palette**.
 3. Click the shortcut field and press your preferred key combination.
    - Recommended: **Cmd+Shift+Space** (macOS) or **Ctrl+Shift+Space** (Windows).
