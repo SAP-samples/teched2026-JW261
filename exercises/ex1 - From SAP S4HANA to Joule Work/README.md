@@ -38,6 +38,8 @@ Which customers have deliveries ready to invoice this week, and do any of them a
 
  **Result:** Joule returns a combined view of customers with pending due list items this week, with any overlap flagged where the same customer also has unposted documents from the prior month. One answer from two apps' worth of data.
 
+<img width="1511" height="826" alt="image" src="https://github.com/user-attachments/assets/8e32e85e-e094-497c-8875-6929a44b05de" />
+
 4. To see the same data in S/4HANA you would need to check two apps:
    - **Create Billing Documents**: search icon in the Fiori shell bar → type `Create Billing Documents` → filter by this week's billing date to see the due list items.
    - **Manage Billing Documents**: search icon → type `Manage Billing Documents` → filter by last month's billing date and status *Not Posted* to find the unposted documents.
@@ -59,6 +61,8 @@ Which 3 customers have the highest overdue billing value, and for each one, how 
 3. Press **Enter** and wait for the response.
 
 **Result:** Joule returns a ranked list of the top 3 customers by overdue value, with the age of each customer's oldest open document — filtering, grouping, summing, and aging all in one step.
+
+<img width="1510" height="825" alt="image" src="https://github.com/user-attachments/assets/1e523d9c-3cdd-47ea-961a-4ce41001a356" />
 
 4. To find the same data in S/4HANA: open **Manage Billing Documents**, filter by billing date before today and posting status *Open*, group by sold-to party, and sort by total amount descending.
 
@@ -88,6 +92,9 @@ What the embedded panel cannot do that Web adds:
 3. Click it to open it.
 
 **Result:** The conversation from your S/4HANA session is right there — the billing aging query and the top-5 customer ranking are already in the thread. You are not starting from scratch; you are continuing.
+
+<img width="1505" height="827" alt="image" src="https://github.com/user-attachments/assets/7a7be379-33b3-4c97-b43e-082ab1435ee5" />
+
 
 ---
 
