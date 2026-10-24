@@ -3,9 +3,9 @@
 **Learning Objectives**
 After completing this exercise, you will be able to:
 - Continue a conversation thread that started in the S/4HANA embedded panel.
-- Enable document creation in Joule Work Web settings and export a PDF or Markdown file.
-- Use Joule Work Web to structure analytical findings into a shareable document.
-- Identify the natural transition point from Web to Desktop and understand what triggers it.
+- Enable document creation in Joule Work web settings and export a PDF or Markdown file.
+- Use Joule Work web to structure analytical findings into a shareable document.
+- Identify the natural transition point from web to desktop and understand what triggers it.
 
 **Estimated time:** 25 minutes
 
@@ -15,7 +15,7 @@ After completing this exercise, you will be able to:
 
 Your conversation from Exercise 1 is already here. You do not need to re-explain the billing situation. Joule has the context.
 
-1. In the left sidebar of Joule Work Web, open the conversation from Exercise 1.
+1. In the left sidebar of Joule Work web, open the conversation from Exercise 1.
 2. Scroll to the bottom to see the billing analysis from S/4HANA: the aged items and the top 5 customer ranking.
 
 > **Note:** If you are starting this exercise fresh without completing Exercise 1, open a new conversation and paste the following as your first message to set up the context:
@@ -46,7 +46,7 @@ The S/4HANA data shows what is open. Now ask Joule to reason about what it means
 Based on the billing analysis we ran, what are the key risk factors I should highlight before the Q4 close? Consider the customer concentration, the age of the oldest items, and the fact that some customers have open credit memo requests alongside their delivery backlog.
 ```
 
-🌕 **Result:** Joule identifies the risk dimensions: revenue recognition exposure, customer concentration risk, aging escalation thresholds, and the complication that credit memo requests create for clean invoicing.
+**Result:** Joule identifies the risk dimensions: revenue recognition exposure, customer concentration risk, aging escalation thresholds, and the complication that credit memo requests create for clean invoicing.
 
 ---
 
@@ -60,7 +60,7 @@ Now turn the analysis into a document you can share and carry into the next exer
 Turn this into a structured Q4 Billing Risk Assessment I can share with my controller. Format it with the following sections: Executive Summary, Top At-Risk Customers (with open value, item count, and oldest item age), Document Type Breakdown, and Recommended Actions before close, create a pdf document out of this.
 ```
 
-🌕 **Result:** Joule generates a complete, structured document ready to share or use as the basis for a briefing.
+**Result:** Joule generates a complete, structured document ready to share or use as the basis for a briefing.
 
 ---
 
