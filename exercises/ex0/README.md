@@ -43,7 +43,7 @@ A browser-based experience. No installation required, works on any device.
 
 **How to access:** Open the URL provided by your instructor in a browser.
 
-> **Agentic thinking** is a Joule Work Web capability. It appears as a pill in the conversation input window and, when active, lets Joule plan, decompose, and execute complex multi-step tasks autonomously invoking Skills, Agents, and connected systems in sequence until the goal is met. ([SAP Help: Joule Work](https://help.sap.com/doc/525677ed302148a4b7cc9988321055fb/CLOUD/en-US/dc1706e63f4d443f9da2aeae83a2277e.pdf))
+> **Agentic thinking** is a Joule Work web capability. It appears as a pill in the conversation input window and, when active, lets Joule plan, decompose, and execute complex multi-step tasks autonomously invoking Skills, Agents, and connected systems in sequence until the goal is met. ([SAP Help: Joule Work](https://help.sap.com/doc/525677ed302148a4b7cc9988321055fb/CLOUD/en-US/dc1706e63f4d443f9da2aeae83a2277e.pdf))
 
 ---
 
