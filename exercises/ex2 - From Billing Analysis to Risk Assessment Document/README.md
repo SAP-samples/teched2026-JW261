@@ -34,6 +34,9 @@ Before generating the risk assessment document, make sure the document creation 
 2. Toggle on **PDF**
 3. Return to your conversation.
 
+<img width="1510" height="826" alt="image" src="https://github.com/user-attachments/assets/65bb2bc3-36fb-4fb8-be42-726d2f425068" />
+
+
 ---
 
 ## 3. Enrich the Risk Picture
@@ -71,6 +74,8 @@ You will use this file as an input in Exercise 3. Save it now before moving on.
 1. In the conversation, find the generated document and use the **Download** or **Export as PDF** button to save it to your laptop as `Q4_Billing_Risk_Assessment.pdf`.
 
 > **Note:** This file is not provided in the session repository. You must save it here before continuing to Exercise 3.
+
+<img width="1510" height="497" alt="image" src="https://github.com/user-attachments/assets/020814c1-62fd-4a52-8fb4-856213144f5e" />
 
 ---
 
