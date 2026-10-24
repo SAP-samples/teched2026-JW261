@@ -14,6 +14,8 @@ This repository contains the material for the SAP TechEd 2026 session **JW261 | 
 
 This is a **2-hour hands-on session**. You follow a single business story, a Q4 billing and close scenario across three Joule Work surfaces, each picked up where the last one naturally ends.
 
+If you have questions, ask Joule. It can help you.
+
 ### The Story
 
 You are a finance manager closing Q4. You start in **SAP S/4HANA** and the Joule panel surfacing overdue billing items. You open **Joule Work web** to investigate the full close picture with the Financial Closing Assistant: status, blockers, CFO brief. The billing gap points to your local Q4 forecast spreadsheet. You switch to **Joule Work desktop application**, attach the Excel file, activate the Billing Assistant, and synthesise local plan with live S/4HANA actuals. You then build a custom Skill to make that analysis repeatable. Finally, you build a persistent **Space** based on live web search, weather, calendar, and close status that waits for you every morning until the books are closed.
