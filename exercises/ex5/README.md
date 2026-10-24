@@ -46,7 +46,7 @@ The tray icon keeps Joule running in the background after you close the main win
 1. Switch to any other application — your browser, email client, or file manager.
 2. Press your summon shortcut (e.g. **Cmd+Shift+Space**).
 
-🌕 **Result:** The Joule command palette opens as a floating overlay — no window switching, no taskbar navigation.
+**Result:** The Joule command palette opens as a floating overlay — no window switching, no taskbar navigation.
 
 ---
 
@@ -63,7 +63,7 @@ What is the difference between a parked document and a held document in S/4HANA?
 
 2. Press **Cmd+Enter** (macOS) or **Ctrl+Enter** (Windows) to send with **Ask Now**.
 
-🌕 **Result:** Joule streams the answer directly in the command palette overlay. You never left your original app.
+**Result:** Joule streams the answer directly in the command palette overlay. You never left your original app.
 
 3. Press **Esc** to dismiss the overlay and return to what you were doing.
 
@@ -83,7 +83,7 @@ Summarise the key risk indicators a Finance Manager should check in the final 48
 
 3. Press **Alt+Enter** to send with **Run in Background**.
 
-🌕 **Result:** The palette closes immediately. Joule processes the request silently in a new conversation. Switch back to Joule Work Desktop when ready and open the new conversation to read the answer.
+**Result:** The palette closes immediately. Joule processes the request silently in a new conversation. Switch back to Joule Work desktop application when ready and open the new conversation to read the answer.
 
 > **Tip:** Run in Background is useful for longer requests — for example, asking Joule to analyse a document or run a multi-step research task — so you are not waiting for a response before you can continue working.
 
@@ -114,5 +114,5 @@ Congratulations — you've completed all exercises for session **JW261 | Joule W
 | 5 | Joule Work Desktop | Enabled the command palette and summon shortcut to use Joule from any app |
 
 **What's next?**
-- Explore the [SAP AI Skills Library](https://skills.cloud.sap) to discover pre-built skills and MCP connectors for Joule Work Desktop.
+- Explore the [SAP AI Skills Library](https://skills.cloud.sap) to discover pre-built skills and MCP connectors for Joule Work desktop application.
 - Session materials and this exercise guide remain available at [https://github.com/SAP-samples/teched2026-JW261](https://github.com/SAP-samples/teched2026-JW261).
