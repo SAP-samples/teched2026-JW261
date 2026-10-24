@@ -34,7 +34,7 @@ After completing this exercise, you will be able to:
 ## 3. Start a New Conversation and Attach Both Files
 
 1. Click **New Conversation**.
-2. Click the 📎 icon and attach both files:
+2. Click the `+ icon and attach both files:
    - `Q4_Billing_Risk_Assessment.pdf`
    - `Q4_Billing_Plan.xlsx`
 
@@ -45,6 +45,8 @@ I have attached two documents: a Q4 billing risk assessment from my S/4HANA anal
 ```
 
 **Result:** Joule reads both files and identifies the overlap — CA Specialty Cycles 2 (Critical), US Specialty Cycles 6 (At Risk), and US Specialty Cycles 2 (At Risk) appear in both documents with consistent risk signals.
+
+<img width="1501" height="890" alt="image" src="https://github.com/user-attachments/assets/d9f4172f-2842-4487-a53e-5c14f567312b" />
 
 ---
 
@@ -71,6 +73,8 @@ For the three at-risk accounts identified in my documents — CA Specialty Cycle
 
 **Result:** The Financial Closing Assistant checks open item status for all three accounts and returns a summary of any issues that need resolution before close.
 
+<img width="1501" height="891" alt="image" src="https://github.com/user-attachments/assets/8509efec-10f8-46aa-8d11-075ce363dfb3" />
+
 ---
 
 ## 6. Scope the December Accrual Requirements
@@ -88,6 +92,8 @@ CA Specialty Cycles 2 (CACU_S02) has a systemic billing block and 87 overdue ite
 **Result:** The Financial Closing Assistant identifies the prerequisites for each entity. For **1710** it requires a company code handbook (GL accounts, posting rules, and accrual parameters) to be on file before it can post. For **F1US** it asks for confirmation of the revenue split across the two codes. This is the expected behaviour in a system where handbooks are not yet uploaded for a company code.
 
 > **Note:** In a fully configured production system with handbooks on file, the same prompt generates the accrual proposals directly. What you see here is the Assistant correctly surfacing the missing configuration, a finding that is itself actionable: the billing team now knows the handbook for 1710 is missing and the revenue split for F1US needs to be confirmed before any accrual can be posted.
+
+<img width="1500" height="887" alt="image" src="https://github.com/user-attachments/assets/bf7f5a23-dd0b-46ef-8747-f5d5af7c7b10" />
 
 ---
 
@@ -118,6 +124,8 @@ When triggered, read Q4_Billing_Risk_Assessment.pdf and Q4_Billing_Plan.xlsx fro
 ```
 
 **Result:** Joule drafts a `SKILL.md` with the workflow defined as named steps referencing both local file inputs and Financial Closing Assistant actions.
+
+<img width="1503" height="890" alt="image" src="https://github.com/user-attachments/assets/e9f26b1d-77fb-4a39-927f-3035120d1c18" />
 
 ---
 
