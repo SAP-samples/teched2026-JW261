@@ -78,7 +78,6 @@ This session focuses on **using** Joule Work as a knowledge worker. If you want 
 ## How to Obtain Support
 
 - If you are attending the **in-person session in Berlin**, raise your hand — an instructor will come to you.
-- 
 ---
 
 ## License
