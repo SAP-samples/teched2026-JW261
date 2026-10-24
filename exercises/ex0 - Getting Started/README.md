@@ -140,4 +140,4 @@ In this exercise you:
 - Located the main navigation areas: Conversations, Spaces, Develop, Extensions, and Settings.
 - Sent your first prompt to confirm the environment is working.
 
-[Continue to Exercise 1 →](../ex1/README.md)
+[Continue to Exercise 1 →](../ex1%20-%20From%20SAP%20S4HANA%20to%20Joule%20Work/README.md)

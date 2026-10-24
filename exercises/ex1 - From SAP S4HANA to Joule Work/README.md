@@ -135,4 +135,4 @@ In this exercise you:
 - Recognised what the embedded panel cannot do and transitioned to Joule Work Web — carrying the conversation context with you.
 - Continued the same conversation thread in Web, building directly on the billing data Joule had already surfaced.
 
-[Continue to Exercise 2 →](../ex2/README.md)
+[Continue to Exercise 2 →](../ex2%20-%20From%20Billing%20Analysis%20to%20Risk%20Assessment%20Document/README.md)

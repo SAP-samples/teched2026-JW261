@@ -141,4 +141,4 @@ In this exercise you:
 - Activated the Financial Closing Assistant and used it for what it does best: clearing open items and generating accrual proposals for revenue at risk of missing Q4 close.
 - Built a reusable Skill that automates the weekly close readiness check from two files to a structured report.
 
-[Continue to Exercise 4 →](../ex4/README.md)
+[Continue to Exercise 4 →](../ex4%20-%20Spaces%20From%20Weather%20to%20Close%20Readiness/README.md)

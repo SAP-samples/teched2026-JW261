@@ -154,4 +154,4 @@ In this exercise you:
 - Organised cards into sections for daily monitoring and added a weather card to show cross-context use.
 - Used the Space's attached conversation to ask a grounded follow-up question without re-running any analysis.
 
-[Continue to Exercise 5 →](../ex5/README.md)
+[Continue to Exercise 5 →](../ex5%20-%20Joule%20Everywhere%20The%20Command%20Palette/README.md)

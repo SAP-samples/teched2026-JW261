@@ -93,4 +93,4 @@ In this exercise you:
 - Saved the risk assessment as a local file: the carry-over artifact for Exercise 3.
 - Identified the two capabilities that require Desktop like local file access.
 
-[Continue to Exercise 3 ](../ex3/README.md)
+[Continue to Exercise 3 ](../ex3%20-%20Desktop%20Local%20Files%20and%20the%20Financial%20Closing%20Assistant/README.md)

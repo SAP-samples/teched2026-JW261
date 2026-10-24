@@ -63,11 +63,11 @@ Work through the exercises **in order** — each builds directly on the previous
 
 | # | Exercise | Surface | Topic | Time |
 |---|----------|---------|-------|------|
-| 0 | [Getting Started](./exercises/ex0/README.md) | — | Login and system orientation | 5 min |
-| 1 | [From S/4HANA to Joule Work](./exercises/ex1/README.md) | S/4HANA → Web | Embedded Joule panel → Joule Work Web | 25 min |
-| 2 | [Financial Close in Joule Work Web](./exercises/ex2/README.md) | Web | Financial Closing Assistant + Skills | 30 min |
-| 3 | [Billing, Local Data & Custom Skills](./exercises/ex3/README.md) | Desktop | Billing Assistant + Excel + Skill Creator | 35 min |
-| 4 | [Build a Business Dashboard Space ★](./exercises/ex4/README.md) | Desktop | Web search · Weather · Calendar · Close data | 25 min |
+| 0 | [Getting Started](./exercises/ex0%20-%20Getting%20Started/README.md) | — | Login and system orientation | 5 min |
+| 1 | [From S/4HANA to Joule Work](./exercises/ex1%20-%20From%20SAP%20S4HANA%20to%20Joule%20Work/README.md) | S/4HANA → Web | Embedded Joule panel → Joule Work Web | 25 min |
+| 2 | [Financial Close in Joule Work Web](./exercises/ex2%20-%20From%20Billing%20Analysis%20to%20Risk%20Assessment%20Document/README.md) | Web | Financial Closing Assistant + Skills | 30 min |
+| 3 | [Billing, Local Data & Custom Skills](./exercises/ex3%20-%20Desktop%20Local%20Files%20and%20the%20Financial%20Closing%20Assistant/README.md) | Desktop | Billing Assistant + Excel + Skill Creator | 35 min |
+| 4 | [Build a Business Dashboard Space ★](./exercises/ex4%20-%20Spaces%20From%20Weather%20to%20Close%20Readiness/README.md) | Desktop | Web search · Weather · Calendar · Close data | 25 min |
 
 ★ Standalone — can be done without Exercises 1–3.
 
