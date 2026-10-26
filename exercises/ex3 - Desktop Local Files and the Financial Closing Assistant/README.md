@@ -144,6 +144,14 @@ Run Q4 close readiness check.
 
 ---
 
+## Backup Data for Exercise 4
+
+If the Financial Closing Assistant didn't work or you need reference data for creating your Space in Exercise 4, download this backup file:
+
+📄 **[Q4_Close_Readiness_Backup.pdf](../../assets/Q4_Close_Readiness_Backup.pdf)** - Contains close readiness data you can use as the basis for Space creation.
+
+---
+
 ## Summary
 
 In this exercise you:
