@@ -73,7 +73,7 @@ You will use this file as an input in Exercise 3. Save it now before moving on.
 
 1. In the conversation, find the generated document and use the **Download** or **Export as PDF** button to save it to your laptop as `Q4_Billing_Risk_Assessment.pdf`.
 
-> **Important:** You must save this document before continuing to Exercise 3. It will be used as an input file in the Desktop application.
+> **Note:** If document creation doesn't work or you need a pre-generated version, download it here: [`Q4_Billing_Risk_Assessment.pdf`](../../assets/Q4_Billing_Risk_Assessment.pdf)
 
 <img width="1510" height="497" alt="image" src="https://github.com/user-attachments/assets/020814c1-62fd-4a52-8fb4-856213144f5e" />
 
