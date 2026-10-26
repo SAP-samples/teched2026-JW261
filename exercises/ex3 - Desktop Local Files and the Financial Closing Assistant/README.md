@@ -9,6 +9,8 @@ After completing this exercise, you will be able to:
 
 **Estimated time:** 30 minutes
 
+> **Note:** If the Financial Closing Assistant is not available during your session, use the backup data file: [`Financial_Closing_Assistant_Output.md`](../../assets/Financial_Closing_Assistant_Output.md) to understand the expected outputs and proceed to Exercise 4.
+
 ---
 
 ## 1. Open Joule Work desktop application
