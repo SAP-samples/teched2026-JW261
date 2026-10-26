@@ -68,7 +68,7 @@ With both files attached and the Financial Closing Assistant active, Joule can n
 1. 👉 Copy and paste the following prompt:
 
 ```
-@Financial Closing Assistant CA Specialty Cycles 2 (CACU_S02) has a systemic billing block and 87 overdue items at risk of missing Q4 close. The customer is billed from two company codes: 1710 and F1US. Generate a December accrual proposal covering unbilled revenue under both company codes to ensure Q4 recognition if invoicing is not completed before December 31.
+@Financial Closing Assistant CA Specialty Cycles 2 (CACU_S02) has a systemic billing block and 87 overdue items at risk of missing Q4 fiscal year 2026 close. The customer is billed from two company codes: 1710 and F1US. Generate a December accrual proposal covering unbilled revenue under both company codes to ensure Q4 FY2026 recognition if invoicing is not completed before December 31.
 ```
 
 **Result:** The Financial Closing Assistant checks open item status for all three accounts and returns a summary of any issues that need resolution before close.
