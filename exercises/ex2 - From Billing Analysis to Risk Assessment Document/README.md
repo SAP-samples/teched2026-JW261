@@ -16,12 +16,12 @@ After completing this exercise, you will be able to:
 Your conversation from Exercise 1 is already here. You do not need to re-explain the billing situation. Joule has the context.
 
 1. In the left sidebar of Joule Work web, open the conversation from Exercise 1.
-2. Scroll to the bottom to see the billing analysis from S/4HANA: the aged items and the top 5 customer ranking.
+2. Scroll to the bottom to see the billing analysis from S/4HANA: the aged items and the top 3 customer ranking.
 
 > **Note:** If you are starting this exercise fresh without completing Exercise 1, open a new conversation and paste the following as your first message to set up the context:
 
 ```
-I have 2,400+ open billing items in my S/4HANA billing due list. My top 5 customers by open value are US Specialty Cycles 6 (€5.7M, oldest item Sept 2026), US Specialty Cycles 1 (€4.7M), CA Specialty Cycles 1 (€4.6M, 91 items), CA Specialty Cycles 2 (€4.5M, oldest item April 2025), and CA Specialty Cycles 5 (€4.4M, oldest item July 2024). Several customers also have open credit memo requests and billing document requests alongside their delivery backlog.
+I have 2,400+ open billing items in my S/4HANA billing due list. My top 3 customers by open value are US Specialty Cycles 6 (€5.7M, oldest item Sept 2026), CA Specialty Cycles 1 (€4.6M, 91 items), and CA Specialty Cycles 2 (€4.5M, oldest item April 2025). Several customers also have open credit memo requests and billing document requests alongside their delivery backlog.
 ```
 
 ---
