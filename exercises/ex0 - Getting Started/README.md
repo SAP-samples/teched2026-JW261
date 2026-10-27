@@ -81,8 +81,8 @@ A native application for macOS and Windows that adds capabilities not available 
 ### 2.1 Joule Embedded in SAP S/4HANA
 
 1. Open your browser.
-2. Navigate to the **S/4HANA URL** printed on your credential card (provided by your instructor).
-3. Enter the **username** and **password** from your credential card.
+2. Navigate to the **S/4HANA system**: https://my441372.s4hana.cloud.sap/ui
+3. Enter the **username** and **password** from your credential card (provided by your instructor).
 4. For direct full-screen access you can open a seperate tab and follow 2.2 or got to "Open Joule Work"
 
 <img width="1509" height="826" alt="image" src="https://github.com/user-attachments/assets/9e6a92f8-b059-4d9e-a0ab-8517a158bf5a" />

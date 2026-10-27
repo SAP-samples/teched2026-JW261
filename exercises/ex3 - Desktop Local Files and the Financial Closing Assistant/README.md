@@ -9,6 +9,8 @@ After completing this exercise, you will be able to:
 
 **Estimated time:** 30 minutes
 
+> **Note:** If the Financial Closing Assistant is not available during your session, use the backup data file: [`Financial_Closing_Assistant_Output.md`](../../assets/Financial_Closing_Assistant_Output.md) to understand the expected outputs and proceed to Exercise 4.
+
 ---
 
 ## 1. Open Joule Work desktop application
@@ -68,7 +70,7 @@ With both files attached and the Financial Closing Assistant active, Joule can n
 1. 👉 Copy and paste the following prompt:
 
 ```
-For the three at-risk accounts identified in my documents — CA Specialty Cycles 2 (CACU_S02), US Specialty Cycles 6 (USCU_S06), and US Specialty Cycles 2 (USCU_S02) — use the Financial Closing Assistant to check whether there are open AR items that need clearing and whether their billing documents show any document splitting inconsistencies that could block posting.
+@Financial Closing Assistant CA Specialty Cycles 2 (CACU_S02) has a systemic billing block and 87 overdue items at risk of missing Q4 fiscal year 2026 close. The customer is billed from two company codes: 1710 and F1US. Generate a December accrual proposal covering unbilled revenue under both company codes to ensure Q4 FY2026 recognition if invoicing is not completed before December 31.
 ```
 
 **Result:** The Financial Closing Assistant checks open item status for all three accounts and returns a summary of any issues that need resolution before close.
@@ -139,6 +141,14 @@ Run Q4 close readiness check.
 ```
 
 **Result:** The complete workflow runs from a single prompt both files read, at-risk customers identified, open items checked, accrual proposal generated for CA Specialty Cycles 2.
+
+---
+
+## Backup Data for Exercise 4
+
+If the Financial Closing Assistant didn't work or you need reference data for creating your Space in Exercise 4, download this backup file:
+
+📄 **[Q4_Close_Readiness_Backup.pdf](../../assets/Q4_Close_Readiness_Backup.pdf)** - Contains close readiness data you can use as the basis for Space creation.
 
 ---
 

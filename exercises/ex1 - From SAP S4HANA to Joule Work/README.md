@@ -31,7 +31,7 @@ You want to know which customers have deliveries sitting in the billing due list
 2. 👉 Copy and paste the following prompt:
 
 ```
-Which customers have deliveries ready to invoice this week, and do any of them also have unposted billing documents from last month?
+What's sitting on my billing due list right now? Which customers, how much, and how long has it been there? And is the backlog still growing this week?
 ```
 
 3. Press **Enter** and wait for the response.
