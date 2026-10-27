@@ -25,7 +25,7 @@ The command palette lets you summon Joule with a keyboard shortcut from any app.
    - Choose a combination that does not conflict with your other applications.
 4. Click **Save**.
 
-<img width="1503" height="887" alt="image" src="https://github.com/user-attachments/assets/ba1cc45f-ca55-4e30-b011-e6c24fc93ce3" />
+<img width="1503" height="887" alt="image" src="images/05_01_0010.png" />
 
 ---
 
@@ -48,7 +48,7 @@ The tray icon keeps Joule running in the background after you close the main win
 
 **Result:** The Joule command palette opens as a floating overlay — no window switching, no taskbar navigation.
 
-<img width="1501" height="890" alt="image" src="https://github.com/user-attachments/assets/cf27f566-51bb-4a3e-9840-c9005e668807" />
+<img width="1501" height="890" alt="image" src="images/05_01_0020.png" />
 
 ---
 
