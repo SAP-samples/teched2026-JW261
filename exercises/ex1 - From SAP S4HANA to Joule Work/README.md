@@ -34,6 +34,11 @@ You want to know which customers have deliveries sitting in the billing due list
 What's sitting on my billing due list right now? Which customers, how much, and how long has it been there? And is the backlog still growing this week?
 ```
 
+> **Backup prompt:** If the above prompt does not return results, try this alternative:
+> ```
+> What's sitting on my billing due list right now? Which customers, how much, and how long has it been there? And is the backlog still growing this week? Use the s4 public cloud skill. Check this item: C_BillingDueListItem_F0798 in sd_customer_invoices_create
+> ```
+
 3. Press **Enter** and wait for the response.
 
  **Result:** Joule returns a combined view of customers with pending due list items this week, with any overlap flagged where the same customer also has unposted documents from the prior month. One answer from two apps' worth of data.
