@@ -34,13 +34,18 @@ You want to know which customers have deliveries sitting in the billing due list
 What's sitting on my billing due list right now? Which customers, how much, and how long has it been there? And is the backlog still growing this week?
 ```
 
+> **Backup prompt:** If the above prompt does not return results, try this alternative:
+> ```
+> What's sitting on my billing due list right now? Which customers, how much, and how long has it been there? And is the backlog still growing this week? Use the s4 public cloud skill. Check this item: C_BillingDueListItem_F0798 in sd_customer_invoices_create
+> ```
+
 3. Press **Enter** and wait for the response.
 
  **Result:** Joule returns a combined view of customers with pending due list items this week, with any overlap flagged where the same customer also has unposted documents from the prior month. One answer from two apps' worth of data.
 
  
 
-<img width="1511" height="826" alt="image" src="https://github.com/user-attachments/assets/8e32e85e-e094-497c-8875-6929a44b05de" />
+<img width="1511" height="826" alt="image" src="images/01_01_0020.png" />
 
 
 
@@ -68,7 +73,7 @@ Which 3 customers have the highest overdue billing value, and for each one, how 
 
 
 
-<img width="1510" height="825" alt="image" src="https://github.com/user-attachments/assets/1e523d9c-3cdd-47ea-961a-4ce41001a356" />
+<img width="1510" height="825" alt="image" src="images/01_01_0030.png" />
 
 
 
@@ -103,7 +108,7 @@ What the embedded panel cannot do that Web adds:
 
 
 
-<img width="1505" height="827" alt="image" src="https://github.com/user-attachments/assets/7a7be379-33b3-4c97-b43e-082ab1435ee5" />
+<img width="1505" height="827" alt="image" src="images/01_01_0040.png" />
 
 
 ---

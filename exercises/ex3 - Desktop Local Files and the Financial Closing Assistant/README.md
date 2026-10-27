@@ -48,7 +48,7 @@ I have attached two documents: a Q4 billing risk assessment from my S/4HANA anal
 
 **Result:** Joule reads both files and identifies the overlap — CA Specialty Cycles 2 (Critical), US Specialty Cycles 6 (At Risk), and US Specialty Cycles 2 (At Risk) appear in both documents with consistent risk signals.
 
-<img width="1501" height="890" alt="image" src="https://github.com/user-attachments/assets/d9f4172f-2842-4487-a53e-5c14f567312b" />
+<img width="1501" height="890" alt="image" src="images/03_01_0010.png" />
 
 ---
 
@@ -75,7 +75,7 @@ With both files attached and the Financial Closing Assistant active, Joule can n
 
 **Result:** The Financial Closing Assistant checks open item status for all three accounts and returns a summary of any issues that need resolution before close.
 
-<img width="1501" height="891" alt="image" src="https://github.com/user-attachments/assets/8509efec-10f8-46aa-8d11-075ce363dfb3" />
+<img width="1501" height="891" alt="image" src="images/03_01_0020.png" />
 
 ---
 
@@ -95,7 +95,7 @@ CA Specialty Cycles 2 (CACU_S02) has a systemic billing block and 87 overdue ite
 
 > **Note:** In a fully configured production system with handbooks on file, the same prompt generates the accrual proposals directly. What you see here is the Assistant correctly surfacing the missing configuration, a finding that is itself actionable: the billing team now knows the handbook for 1710 is missing and the revenue split for F1US needs to be confirmed before any accrual can be posted.
 
-<img width="1500" height="887" alt="image" src="https://github.com/user-attachments/assets/bf7f5a23-dd0b-46ef-8747-f5d5af7c7b10" />
+<img width="1500" height="887" alt="image" src="images/03_01_0030.png" />
 
 ---
 
@@ -127,7 +127,7 @@ When triggered, read Q4_Billing_Risk_Assessment.pdf and Q4_Billing_Plan.xlsx fro
 
 **Result:** Joule drafts a `SKILL.md` with the workflow defined as named steps referencing both local file inputs and Financial Closing Assistant actions.
 
-<img width="1503" height="890" alt="image" src="https://github.com/user-attachments/assets/e9f26b1d-77fb-4a39-927f-3035120d1c18" />
+<img width="1503" height="890" alt="image" src="images/03_01_0040.png" />
 
 ---
 

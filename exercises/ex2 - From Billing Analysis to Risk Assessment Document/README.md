@@ -34,7 +34,7 @@ Before generating the risk assessment document, make sure the document creation 
 2. Toggle on **PDF**
 3. Return to your conversation.
 
-<img width="1510" height="826" alt="image" src="https://github.com/user-attachments/assets/65bb2bc3-36fb-4fb8-be42-726d2f425068" />
+<img width="1510" height="826" alt="image" src="images/02_01_0020.png" />
 
 
 ---
@@ -75,7 +75,7 @@ You will use this file as an input in Exercise 3. Save it now before moving on.
 
 > **Note:** If document creation doesn't work or you need a pre-generated version, download it here: [`Q4_Billing_Risk_Assessment.pdf`](../../assets/Q4_Billing_Risk_Assessment.pdf)
 
-<img width="1510" height="497" alt="image" src="https://github.com/user-attachments/assets/020814c1-62fd-4a52-8fb4-856213144f5e" />
+<img width="1510" height="497" alt="image" src="images/02_01_0030.png" />
 
 ---
 
