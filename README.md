@@ -83,6 +83,12 @@ This session focuses on **using** Joule Work as a knowledge worker. If you want 
 |---------|-------|-------|
 | [JW160](https://github.com/SAP-samples/teched2026-JW160) | Joule 101: Prompting, agents, skills, and deep reasoning | Build Skills and Agents in Joule Studio; prompting fundamentals; deep reasoning |
 
+This session also builds on and references workflows from:
+
+- **[AS260 - Financial Closing Assistant](https://github.com/SAP-samples/teched2026-AS260)** - Deep dive into accruals, journal entries, and clearing agents
+  - Specifically: [Accruals Agent Exercise](https://github.com/SAP-samples/teched2026-AS260/tree/main/exercises/Accruals)
+  - Alternative prompts in Exercise 1 and Exercise 3 of this session are based on the AS260 accruals workflow
+
 ---
 
 ## How to Obtain Support

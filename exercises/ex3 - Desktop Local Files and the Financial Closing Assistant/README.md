@@ -31,6 +31,21 @@ After completing this exercise, you will be able to:
 1. Download [`assets/Q4_Billing_Plan.xlsx`](../../assets/Q4_Billing_Plan.xlsx).
 2. The file contains 8 SAP demo customers — US Specialty Cycles 6, CA Specialty Cycles 2, US Specialty Cycles 2 (the three high-risk accounts from the PDF), and five on-track accounts. Status levels are On Track, At Risk, and Critical.
 
+### Alternative Files for Accruals Flow
+
+If you want to explore the accruals workflow with local files in Desktop, you can use these alternative files:
+
+**File 1 — Policy Reference:**
+- `assets/00HO_JE-Policy_v0.xlsx` - Journal entry policy with GL accounts, cost centers, and WBS elements
+
+**File 2 — Sample Journal Entry Data:**
+- `assets/00HO_JE_v1.xlsx` - Sample journal entries for company code 00HO showing posting patterns
+
+You can attach these files and ask questions like:
+```
+Cross-reference the sample journal entries in 00HO_JE_v1.xlsx against the policy rules in 00HO_JE-Policy_v0.xlsx. Do the GL accounts and cost centers match the defined policy?
+```
+
 ---
 
 ## 3. Start a New Conversation and Attach Both Files
@@ -54,10 +69,14 @@ I have attached two documents: a Q4 billing risk assessment from my S/4HANA anal
 
 ## 4. Activate the Financial Closing Assistant
 
-1. Open the **Assistants** panel.
-2. Locate **Financial Closing Assistant**.
-   - *"An intelligent workflow orchestration agent for SAP financial processes including period-end close, journal entries, clearing, and accruals. Scoped to S/4HANA Finance (ACCFC)."*
-3. Toggle the Assistant **on**.
+Before using the Financial Closing Assistant, you need to enable it in Desktop.
+
+1. In the left sidebar, click on the **cube icon** labeled **"Extensions"** (located above your avatar)
+2. Navigate to the **"Assistants"** panel
+3. Find **Financial Closing Assistant** in the list
+4. Toggle it **ON**
+
+**Result:** The Financial Closing Assistant is now active and can be invoked with `@Financial Closing Assistant` in your prompts.
 
 > **Note:** The Financial Closing Assistant handles transactional close actions: clearing open items, creating journal entry proposals, and generating accrual proposals. It does not surface period-end close task lists or billing block status — those are queried directly in S/4HANA via the Manage Your Closing Activities app and the Billing Due List (F0798).
 
@@ -92,6 +111,24 @@ CA Specialty Cycles 2 (CACU_S02) has a systemic billing block and 87 overdue ite
 ```
 
 **Result:** The Financial Closing Assistant identifies the prerequisites for each entity. For **1710** it requires a company code handbook (GL accounts, posting rules, and accrual parameters) to be on file before it can post. For **F1US** it asks for confirmation of the revenue split across the two codes. This is the expected behaviour in a system where handbooks are not yet uploaded for a company code.
+
+> **Note: If the Assistant Asks for a Handbook**
+> 
+> The Financial Closing Assistant may respond that it needs an **accruals policy handbook** to be uploaded before it can generate accrual proposals. This is expected if no handbook has been uploaded yet for company code 1710 or F1US.
+> 
+> **What is an accruals policy handbook?**
+> An accruals policy handbook is a document (PDF or Excel) that defines the posting rules for accruals: GL accounts, cost centers, calculation methods, document types, and reversal behavior for each accrual category.
+> 
+> **How to upload:**
+> If the assistant requests a handbook, use this prompt:
+> 
+> ```
+> @Financial Closing Assistant Upload accruals policy handbook for company code 1710
+> ```
+> 
+> Then attach the policy file when prompted. For this exercise, you can use the sample file: `assets/00HO_JE-Policy_v0.xlsx` (adapt company code references as needed).
+> 
+> **For detailed handbook requirements and structure**, see: [AS260 Accruals Exercise - Section 4: Policy Handbook](https://github.com/SAP-samples/teched2026-AS260/tree/main/exercises/Accruals#4-preparation--policy-handbook)
 
 > **Note:** In a fully configured production system with handbooks on file, the same prompt generates the accrual proposals directly. What you see here is the Assistant correctly surfacing the missing configuration, a finding that is itself actionable: the billing team now knows the handbook for 1710 is missing and the revenue split for F1US needs to be confirmed before any accrual can be posted.
 

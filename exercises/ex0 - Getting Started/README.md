@@ -101,6 +101,22 @@ A native application for macOS and Windows that adds capabilities not available 
 
 ---
 
+## 2.5 Activate Required Skills
+
+Before starting the exercises, ensure the S/4HANA skills are activated.
+
+1. In Joule Work Web, click your **user initials** in the bottom-left corner
+2. Select **Explore Skills** or **Extensions**
+3. Search for and activate the following skills:
+   - **S/4HANA Public Cloud** - Toggle **ON**
+   - **S/4HANA Private Cloud** - Toggle **ON** (if available)
+
+> **Note:** These skills enable Joule to query data from your S/4HANA system. Without them, prompts in Exercise 1 and beyond may not return results.
+
+4. Return to your conversation
+
+---
+
 ## 3. Orient Yourself: Main Navigation Areas
 
 Take a moment to locate each area in the Joule Work Web interface before you start working.

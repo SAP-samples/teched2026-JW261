@@ -5,8 +5,7 @@
 **Learning Objectives**
 After completing this exercise, you will be able to:
 - Enable the summon shortcut to invoke Joule from any application on your machine.
-- Use Ask Now and Run in Background to get answers without switching context.
-- Enable the tray / menu bar icon to keep Joule always available.
+- Learn what the summon feature and command palette can do.
 
 **Estimated time:** 10 minutes
 
@@ -21,30 +20,19 @@ The command palette lets you summon Joule with a keyboard shortcut from any app.
 1. Open Joule Work desktop application.
 2. Go to **Settings** → **General** → **Command Palette**.
 3. Click the shortcut field and press your preferred key combination.
-   - Recommended: **Cmd+Shift+Space** (macOS) or **Ctrl+Shift+Space** (Windows).
    - Choose a combination that does not conflict with your other applications.
 4. Click **Save**.
+
+> **Note:** Remember your chosen shortcut - you will use it throughout this exercise as **[your summon shortcut]**.
 
 <img width="1503" height="887" alt="image" src="images/05_01_0010.png" />
 
 ---
 
-## 2. Enable the Tray / Menu Bar Icon
-
-The tray icon keeps Joule running in the background after you close the main window, so the summon shortcut works instantly even when the app is not visible.
-
-1. In the same **Settings → General** page, find **Tray Icon** (Windows) or **Menu Bar Icon** (macOS).
-2. Toggle it **on**.
-3. Close the Settings panel.
-
-🌕 **Result:** A Joule icon appears in your system tray (Windows) or menu bar (macOS). You can now close the Joule window and Joule stays active in the background.
-
----
-
-## 3. Summon Joule from Another App
+## 2. Summon Joule from Another App
 
 1. Switch to any other application — your browser, email client, or file manager.
-2. Press your summon shortcut (e.g. **Cmd+Shift+Space**).
+2. Press **[your summon shortcut]** that you defined in Settings.
 
 **Result:** The Joule command palette opens as a floating overlay — no window switching, no taskbar navigation.
 
@@ -52,51 +40,28 @@ The tray icon keeps Joule running in the background after you close the main win
 
 ---
 
-## 4. Ask Now
-
-Use **Ask Now** when you want an inline answer without leaving your current context.
+## 3. Ask About the Summon Feature
 
 1. With the command palette open, type the following:
 
 👉 Copy and paste the following prompt:
 ```
-What is the difference between a parked document and a held document in S/4HANA?
+What can I do with the summon feature and command palette?
 ```
 
-2. Press **Cmd+Enter** (macOS) or **Ctrl+Enter** (Windows) to send with **Ask Now**.
+2. Press **Enter** to send.
 
-**Result:** Joule streams the answer directly in the command palette overlay. You never left your original app.
+**Result:** Joule explains the summon feature capabilities: invoking Joule from any application, getting answers without context switching, and using keyboard shortcuts to access Joule Work instantly.
 
 3. Press **Esc** to dismiss the overlay and return to what you were doing.
-
----
-
-## 5. Run in Background
-
-Use **Run in Background** when you want Joule to work on something while you keep working — the answer appears as a new conversation you can read when ready.
-
-1. Press your summon shortcut again to open the palette.
-2. Type the following:
-
-👉 Copy and paste the following prompt:
-```
-Summarise the key risk indicators a Finance Manager should check in the final 48 hours before period-end close.
-```
-
-3. Press **Alt+Enter** to send with **Run in Background**.
-
-**Result:** The palette closes immediately. Joule processes the request silently in a new conversation. Switch back to Joule Work desktop application when ready and open the new conversation to read the answer.
-
-> **Tip:** Run in Background is useful for longer requests — for example, asking Joule to analyse a document or run a multi-step research task — so you are not waiting for a response before you can continue working.
 
 ---
 
 ## Summary
 
 In this exercise you:
-- Enabled the summon shortcut and tray/menu bar icon so Joule is always one keystroke away.
-- Used **Ask Now** to get an inline answer without switching windows.
-- Used **Run in Background** to offload a task to Joule while continuing your own work.
+- Enabled the summon shortcut so Joule is always one keystroke away.
+- Learned what you can do with the summon feature and command palette.
 
 The command palette is how the session title becomes literal: **Joule Work, everywhere you work.**
 
