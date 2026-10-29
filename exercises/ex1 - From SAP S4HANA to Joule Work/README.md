@@ -11,6 +11,20 @@ After completing this exercise, you will be able to:
 
 ---
 
+## 0. Prerequisites - Verify Skills are Activated
+
+Before running the prompts in this exercise, verify that S/4HANA skills are activated:
+
+1. Check if you activated the S/4HANA skills in Exercise 0, Section 2.5
+2. If you skipped that step, do it now:
+   - Click your **user initials** → **Explore Skills**
+   - Activate: **S/4HANA Public Cloud** and **S/4HANA Private Cloud**
+   - Return to your conversation
+
+> **Why this matters:** The prompts in this exercise query live S/4HANA data. Without the skills activated, you'll get a message saying the data cannot be accessed.
+
+---
+
 ## 1. Open the Joule Panel in SAP S/4HANA (if not done if previous exercise)
 
 1. In your browser, open the **SAP S/4HANA Fiori Launchpad** using the URL on your credential card.
@@ -38,6 +52,22 @@ What's sitting on my billing due list right now? Which customers, how much, and 
 > ```
 > What's sitting on my billing due list right now? Which customers, how much, and how long has it been there? And is the backlog still growing this week? Use the s4 public cloud skill. Check this item: C_BillingDueListItem_F0798 in sd_customer_invoices_create
 > ```
+
+> **Alternative Prompt - Financial Closing Assistant Accruals:**
+> 
+> If you prefer to explore the Financial Closing Assistant workflow instead of billing, try this alternative:
+> 
+> ```
+> @Financial Closing Assistant I would like to close the month of October 2026 in company code 00HO, can you help me with that?
+> ```
+> 
+> **Result:** The Financial Closing Assistant proposes a series of close actions: clearing open items, uploading journal entries, preparing accruals, and analyzing KPIs. You can then follow up with:
+> 
+> ```
+> I want to focus on preparing accruals for October 2026. What do I need to do?
+> ```
+> 
+> This alternative flow is based on the [Financial Closing Assistant session AS260](https://github.com/SAP-samples/teched2026-AS260). The rest of the exercise (Sections 3-7) continues with the billing scenario, but you can adapt the follow-up questions to your accruals conversation.
 
 3. Press **Enter** and wait for the response.
 
@@ -70,6 +100,20 @@ Which 3 customers have the highest overdue billing value, and for each one, how 
 3. Press **Enter** and wait for the response.
 
 **Result:** Joule returns a ranked list of the top 3 customers by overdue value, with the age of each customer's oldest open document — filtering, grouping, summing, and aging all in one step.
+
+> **Alternative Prompt - Accruals Policy Upload:**
+> 
+> If you're following the accruals alternative flow:
+> 
+> ```
+> @Financial Closing Assistant Upload accruals policy handbook for company code 00HO
+> ```
+> 
+> Then attach `assets/00HO_JE-Policy_v0.xlsx` when prompted. After upload succeeds:
+> 
+> ```
+> @Financial Closing Assistant Create accrual proposals for company code 00HO for period 2026/10
+> ```
 
 
 
